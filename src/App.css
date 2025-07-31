@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #c19a6b;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 0 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+}
+
+.hero-img {
+    height: 60vh;
+    object-fit: cover;
+    position: absolute;
+    right: -5%;
+    bottom: 28%;
+}
+
+.hero {
+    background-color: #c19a6b;
+    height: 60vh;
+    
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 4.5rem;
+    letter-spacing: 0.3em;
+    transform: rotate(-18deg);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 4.5rem;
+    letter-spacing: 0.3em;
+    transform: rotate(18deg);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}

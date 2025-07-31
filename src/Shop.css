@@ -1,0 +1,36 @@
+.shop-nav {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    background-color: #c19a6b;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
