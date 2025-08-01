@@ -1,0 +1,10 @@
+1. Learnt how to use react router to link to different pages of the website using Link and router
+
+2. Learnt to style Link 
+    - <Link to="/" style={{textDecoration: 'none', color: 'black'}}>Home</Link>
+
+3. Learnt to integrate fetch into useEffect and loading response 
+    - Ensure that the data has been loaded before running any components
+    - Using .map for the json data would loop through each individual dataset inside the json array so do not need to specify data[0].title (for example) and only need data.title
+
+4. Learnt to use props for components 
